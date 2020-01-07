@@ -1,6 +1,7 @@
-// Import stylesheets
-import './style.css';
+// function for first programe
+function sayHello(person){
+  return "Hello Dear "+person;
+}
+let name = "Ravan";
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+document.body.innerHTML = sayHello(name);
