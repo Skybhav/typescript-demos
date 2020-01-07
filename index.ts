@@ -4,4 +4,4 @@ function sayHello(person){
 }
 let name = "Ravan";
 
-document.body.innerHTML = sayHello(name); 
+document.body.textContent = sayHello(name); 
